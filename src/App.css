@@ -1,38 +1,100 @@
-.App {
+body {
+  background-color: #24242a;
+  margin: 50px;
+  align-items: center;
+}
+
+input {
+
+}
+
+button {
+
+}
+
+.home {
+  background-color: #EF6C00;
+  padding: 10px 70px 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.home hr {
+  color: #24242a ;
+}
+
+.task-manager {
+  background-color: #e8eaf6;
+  margin: 50px 0px ;
+  border-radius: 3px;
+  padding: 30px;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.form {
+  background-color: ;
+  display: flex;
+  height: 50px;
+}
+
+.form input{
+  width: 69%;
+  height: 30px;
+  background-color: white;
+  border-radius: 5px 0px 0px 5px;
+  box-shadow: none;
+  text-decoration: none;
+  padding: 2px;
+  box-sizing: border-box;
+  height: 100%;
+  color: #24242a;
+
+}
+
+.form button {
+  width: 30%;
+  background-color: #EF6C00;
+  color: white;
+  text-decoration: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  height: 100%;
+  font-size: 1em;
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 3px 0px rgba(0,0,0,0.75);
+}
+
+.form button:hover {
+  background-color: #24242a;
+  color: white;
+  cursor: pointer;
+}
+
+.form input::placeholder {
+  color: #24242a;
+  font-size: 1.2em;
+  font-style: italic;
+  padding-left: 50px;
+}
+
+table {
+  width: 100%;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+table th {
+  background-color: #1a237e;
   color: white;
+  padding: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+table tr {
+  border: 3px solid lightgray;
+  background-color: #c5cae9;
+  padding: 10px;
 }
