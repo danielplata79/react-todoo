@@ -3,7 +3,7 @@ import { useState } from "react";
 const TaskItem = () => {
 
  
-    const [ taskItems, setTaskItems ] = useState([
+    const [ taskItems ] = useState([
         {name: "first task, done: false"},
         {name: "second task, done: false"},
         {name: "third task, done: false"},
