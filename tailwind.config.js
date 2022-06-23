@@ -1,7 +1,11 @@
 module.exports = {
     content: ["./src/**/*.{html,js}"],
     theme: {
-        extend: {},
+        extend: {
+            screens: {
+                'xiaomi': {'max': '500px'},
+            }
+        },
     },
     plugins: [],
 }
