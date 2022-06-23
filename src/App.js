@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 
 const styles = {
   container: `container mx-auto bg-emerald-100 p-10 h-50 shadow-md rounded`,
+  containerTable: `container mx-auto bg-emerald-100 p-10 h-50 shadow-md rounded h-96`,
   footer: `fixed bottom-0 w-full`
 }
 
@@ -26,7 +27,7 @@ function App() {
            </div>
            <br></br>
 
-           <div className={styles.container}>
+           <div className={styles.containerTable}>
                <TaskItem></TaskItem>         
            </div>
            <br></br>
